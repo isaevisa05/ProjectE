@@ -3,17 +3,16 @@ package io.github.isaevisa05.projecte;
 import io.github.isaevisa05.projecte.entity.Student;
 import io.github.isaevisa05.projecte.entity.University;
 
+import java.util.Arrays;
+
 public class Main {
 
     public static void main(String[] args) {
+        System.out.println("Список университетов");
+        for(University university : ReadXLSX.readUniversities()) System.out.println(university);
 
-        University university = new University("1", "Med", "Medi", 1000, StudyProfile.MEDICINE);
-
-        Student student = new Student("N N", "1", 3, 4.73F);
-
-        System.out.println(university);
-        System.out.println(student);
-
+        System.out.println("\nСписок учеников этих университетов");
+        for(Student student : ReadXLSX.readStudents()) System.out.println(student);
     }
 
 }
