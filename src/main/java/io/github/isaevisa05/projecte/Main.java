@@ -37,16 +37,6 @@ public class Main {
         System.out.println(universities.size() + " -> " + universities2.size());
         System.out.println(students.size() + " -> " + students2.size());
 
-        List<String> serializedUniversities = new ArrayList<>();
-        for (University university : universities) {
-            serializedUniversities.add(JsonUtil.universityToJson(university));
-        }
-
-        List<String> serializedStudents = new ArrayList<>();
-        for (Student student : students) {
-            serializedStudents.add(JsonUtil.studentToJson(student));
-        }
-
         universities.stream()
                 .forEach((university -> {
                     String json = JsonUtil.universityToJson(university);
