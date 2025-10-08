@@ -1,5 +1,8 @@
 package io.github.isaevisa05.projecte;
 
+import lombok.Getter;
+
+@Getter
 public enum StudyProfile {
 
     MEDICINE("Медицина"),
