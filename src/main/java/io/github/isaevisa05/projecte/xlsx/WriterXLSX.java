@@ -23,6 +23,15 @@ public class WriterXLSX {
         try (XSSFWorkbook xssfWorkbook = new XSSFWorkbook()) {
             XSSFSheet sheet = xssfWorkbook.createSheet("Статистика");
 
+            XSSFFont font = xssfWorkbook.createFont();
+            font.setBold(true);
+            font.setItalic(true);
+            font.setFontHeight((short) 4);
+
+            CellStyle cellStyle = xssfWorkbook.createCellStyle();
+            cellStyle.setFont(font);
+            cellStyle.setLocked(true);
+
             String[] headers = {"Профиль обучения", "Средний балл", "Количество студентов", "Количество университетов", "Университеты"};
 
             Row startRow = sheet.createRow(0);
