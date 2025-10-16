@@ -46,12 +46,12 @@ public class StatisticsUtil {
             BigDecimal divisor = new BigDecimal(studentCount);
             if (divisor.compareTo(BigDecimal.ZERO) != 0) {
                 if (studentsAvgExamScore.compareTo(BigDecimal.ZERO) != 0) {
-                    studentsAvgExamScore = studentsAvgExamScore.divide(divisor, RoundingMode.HALF_UP).setScale(2);
+                    studentsAvgExamScore = studentsAvgExamScore.divide(divisor, RoundingMode.HALF_UP);
                 }
             }
 
             statistics.setQuantityOfStudents(studentCount);
-            statistics.setAvgExamScore(Float.parseFloat(studentsAvgExamScore.toString()));
+            statistics.setAvgExamScore(Float.parseFloat(studentsAvgExamScore.setScale(2).toString()));
 
             statisticsList.add(statistics);
         });

@@ -1,11 +1,17 @@
 package io.github.isaevisa05.projecte.xlsx;
 
 import io.github.isaevisa05.projecte.entity.Statistics;
+import org.apache.poi.ss.usermodel.Cell;
+import org.apache.poi.ss.usermodel.CellStyle;
 import org.apache.poi.ss.usermodel.CellType;
 import org.apache.poi.ss.usermodel.Row;
+import org.apache.poi.xssf.usermodel.XSSFColor;
+import org.apache.poi.xssf.usermodel.XSSFFont;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+import org.openxmlformats.schemas.spreadsheetml.x2006.main.CTColor;
 
+import java.awt.*;
 import java.io.FileOutputStream;
 import java.util.Arrays;
 import java.util.Iterator;
@@ -21,18 +27,36 @@ public class WriterXLSX {
 
             Row startRow = sheet.createRow(0);
             for (int i = 0; i < headers.length; i++) {
-                startRow.createCell(i, CellType.STRING).setCellValue(headers[i]);
+                Cell cell = startRow.createCell(i, CellType.STRING);
+                cell.setCellValue(headers[i]);
+                cell.setCellStyle(cellStyle);
             }
 
             int i = 1;
             for (Statistics statistics : statisticsList) {
-                Row row = sheet.createRow(i++);
-                row.createCell(0).setCellValue(statistics.getStudyProfile().name());
-                row.createCell(1).setCellValue(statistics.getAvgExamScore());
-                row.createCell(2).setCellValue(statistics.getQuantityOfStudents());
-                row.createCell(3).setCellValue(statistics.getQuantityOfUniversitiesForStudyProfile());
-                row.createCell(4).setCellValue(Arrays.toString(statistics.getUniversitiesForStudyProfile().toArray()));
+                Row row = sheet.createRow(i);
 
+                Cell cell0 = row.createCell(0);
+                cell0.setCellValue(statistics.getStudyProfile().name());
+                cell0.setCellStyle(cellStyle);
+
+                Cell cell1 = row.createCell(1);
+                cell1.setCellValue(getNormalFloat(statistics.getAvgExamScore()));
+                cell1.setCellStyle(cellStyle);
+
+                Cell cell2 = row.createCell(2);
+                cell2.setCellValue(statistics.getQuantityOfStudents());
+                cell2.setCellStyle(cellStyle);
+
+                Cell cell3 = row.createCell(3);
+                cell3.setCellValue(statistics.getQuantityOfUniversitiesForStudyProfile());
+                cell3.setCellStyle(cellStyle);
+
+                Cell cell4 = row.createCell(4);
+                cell4.setCellValue(Arrays.toString(statistics.getUniversitiesForStudyProfile().toArray()));
+                cell4.setCellStyle(cellStyle);
+
+                i++;
             }
 
             try (FileOutputStream fileOutputStream = new FileOutputStream(filePath)) {
@@ -42,6 +66,18 @@ public class WriterXLSX {
         } catch (Exception e) {
             System.out.println(e.getMessage());
         }
+    }
+
+    private static String getNormalFloat(float f) {
+        String avg = f + "";
+        String[] s = avg.split(",");
+        if(s.length == 2) {
+            if(s[1].length() > 2) {
+                s[1] = s[1].substring(0, 2);
+                avg = s[0] + "," + s[1];
+            }
+        }
+        return avg;
     }
 
 }
