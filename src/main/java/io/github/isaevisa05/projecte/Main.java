@@ -1,16 +1,8 @@
 package io.github.isaevisa05.projecte;
 
-import io.github.isaevisa05.projecte.comparators.ComparatorManager;
-import io.github.isaevisa05.projecte.comparators.enums.StudentComparatorType;
-import io.github.isaevisa05.projecte.comparators.enums.UniversityComparatorType;
-import io.github.isaevisa05.projecte.entity.Student;
-import io.github.isaevisa05.projecte.entity.University;
-import io.github.isaevisa05.projecte.utils.JsonUtil;
 import io.github.isaevisa05.projecte.utils.StatisticsUtil;
 import io.github.isaevisa05.projecte.xlsx.ReadXLSX;
 import io.github.isaevisa05.projecte.xlsx.WriterXLSX;
-
-import java.io.File;
 
 public class Main {
 

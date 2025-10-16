@@ -3,18 +3,23 @@ package io.github.isaevisa05.projecte.xlsx;
 import io.github.isaevisa05.projecte.StudyProfile;
 import io.github.isaevisa05.projecte.entity.Student;
 import io.github.isaevisa05.projecte.entity.University;
+import lombok.AccessLevel;
+import lombok.NoArgsConstructor;
 import org.apache.poi.ss.usermodel.Row;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 
+@NoArgsConstructor(access = AccessLevel.PRIVATE)
 public class ReadXLSX {
 
-    private ReadXLSX() {}
+    private static final Logger logger = LoggerFactory.getLogger(ReadXLSX.class);
 
     public static List<Student> readStudents() {
         try {
@@ -35,7 +40,7 @@ public class ReadXLSX {
             }
             return list;
         } catch (IOException e) {
-            System.out.println("Ошибка " + e);
+            logger.warn(e.getMessage());
             return null;
         }
     }
@@ -60,7 +65,7 @@ public class ReadXLSX {
             }
             return list;
         } catch (IOException e) {
-            System.out.println("Ошибка " + e);
+            logger.warn(e.getMessage());
             return null;
         }
     }

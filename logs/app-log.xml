@@ -1,0 +1,8 @@
+<log4j:event logger="io.github.isaevisa05.projecte.utils.StatisticsUtil" timestamp="1760607105518" level="INFO" thread="main">
+<log4j:message><![CDATA[Create new Statistics]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="io.github.isaevisa05.projecte.utils.StatisticsUtil" timestamp="1760607105522" level="INFO" thread="main">
+<log4j:message><![CDATA[Statistics created]]></log4j:message>
+</log4j:event>
+

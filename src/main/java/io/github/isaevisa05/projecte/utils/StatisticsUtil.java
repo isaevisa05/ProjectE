@@ -4,6 +4,8 @@ import io.github.isaevisa05.projecte.StudyProfile;
 import io.github.isaevisa05.projecte.entity.Statistics;
 import io.github.isaevisa05.projecte.entity.Student;
 import io.github.isaevisa05.projecte.entity.University;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import java.math.BigDecimal;
 import java.math.RoundingMode;
@@ -14,11 +16,11 @@ import java.util.stream.Collectors;
 
 public class StatisticsUtil {
 
-    public static List<Statistics> createStatistics(List<University> universities, List<Student> students) {
+    private static final Logger logger = LoggerFactory.getLogger(StatisticsUtil.class);
 
-        Set<StudyProfile> profiles = universities.stream()
-                .map(University::getStudyProfile)
-                .collect(Collectors.toSet());
+    public static List<Statistics> createStatistics(List<University> universities, List<Student> students) {
+        logger.info("Create new Statistics");
+        Set<StudyProfile> profiles = universities.stream().map(University::getStudyProfile).collect(Collectors.toSet());
 
         List<Statistics> statisticsList = new ArrayList<>();
 
@@ -27,10 +29,7 @@ public class StatisticsUtil {
 
             statistics.setStudyProfile(profile);
 
-            statistics.setUniversitiesForStudyProfile(universities.stream()
-                    .filter(university -> university.getStudyProfile().equals(statistics.getStudyProfile()))
-                    .map(University::getId)
-                    .collect(Collectors.toList()));
+            statistics.setUniversitiesForStudyProfile(universities.stream().filter(university -> university.getStudyProfile().equals(statistics.getStudyProfile())).map(University::getId).collect(Collectors.toList()));
 
             statistics.setQuantityOfUniversitiesForStudyProfile(statistics.getUniversitiesForStudyProfile().size());
 
@@ -55,6 +54,7 @@ public class StatisticsUtil {
 
             statisticsList.add(statistics);
         });
+        logger.info("Statistics created");
 
         return statisticsList;
     }

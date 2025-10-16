@@ -5,19 +5,20 @@ import org.apache.poi.ss.usermodel.Cell;
 import org.apache.poi.ss.usermodel.CellStyle;
 import org.apache.poi.ss.usermodel.CellType;
 import org.apache.poi.ss.usermodel.Row;
-import org.apache.poi.xssf.usermodel.XSSFColor;
 import org.apache.poi.xssf.usermodel.XSSFFont;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
-import org.openxmlformats.schemas.spreadsheetml.x2006.main.CTColor;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
-import java.awt.*;
 import java.io.FileOutputStream;
+import java.io.IOException;
 import java.util.Arrays;
-import java.util.Iterator;
 import java.util.List;
 
 public class WriterXLSX {
+
+    private static final Logger logger = LoggerFactory.getLogger(WriterXLSX.class);
 
     public static void writeStatistics(List<Statistics> statisticsList, String filePath) {
         try (XSSFWorkbook xssfWorkbook = new XSSFWorkbook()) {
@@ -70,18 +71,19 @@ public class WriterXLSX {
 
             try (FileOutputStream fileOutputStream = new FileOutputStream(filePath)) {
                 xssfWorkbook.write(fileOutputStream);
+            } catch (IOException e) {
+                logger.warn(e.getMessage());
             }
-
         } catch (Exception e) {
-            System.out.println(e.getMessage());
+            logger.warn(e.getMessage());
         }
     }
 
     private static String getNormalFloat(float f) {
         String avg = f + "";
         String[] s = avg.split(",");
-        if(s.length == 2) {
-            if(s[1].length() > 2) {
+        if (s.length == 2) {
+            if (s[1].length() > 2) {
                 s[1] = s[1].substring(0, 2);
                 avg = s[0] + "," + s[1];
             }
