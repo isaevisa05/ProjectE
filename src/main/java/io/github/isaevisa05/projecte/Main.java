@@ -6,17 +6,24 @@ import io.github.isaevisa05.projecte.comparators.enums.UniversityComparatorType;
 import io.github.isaevisa05.projecte.entity.Student;
 import io.github.isaevisa05.projecte.entity.University;
 import io.github.isaevisa05.projecte.utils.JsonUtil;
+import io.github.isaevisa05.projecte.utils.StatisticsUtil;
+import io.github.isaevisa05.projecte.xlsx.ReadXLSX;
+import io.github.isaevisa05.projecte.xlsx.WriterXLSX;
 
-import java.util.ArrayList;
-import java.util.List;
+import java.io.File;
 
 public class Main {
 
     public static void main(String[] args) {
         var universities = ReadXLSX.readUniversities();
         var students = ReadXLSX.readStudents();
+        WriterXLSX.writeStatistics(
+                StatisticsUtil.createStatistics(
+                        universities, students)
+                , "file.xlsx");
 
-        universities.stream()
+    }
+        /*universities.stream()
                 .sorted(ComparatorManager.getUniversityComparator(UniversityComparatorType.ID))
                 .forEach(System.out::println);
 
@@ -52,6 +59,6 @@ public class Main {
                     Student student2 = JsonUtil.jsonToStudent(json);
                     System.out.println(student2);
                 }));
-    }
+    }*/
 
 }

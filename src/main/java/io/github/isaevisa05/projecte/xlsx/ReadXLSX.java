@@ -1,17 +1,15 @@
-package io.github.isaevisa05.projecte;
+package io.github.isaevisa05.projecte.xlsx;
 
+import io.github.isaevisa05.projecte.StudyProfile;
 import io.github.isaevisa05.projecte.entity.Student;
 import io.github.isaevisa05.projecte.entity.University;
 import org.apache.poi.ss.usermodel.Row;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
-import java.io.File;
-import java.io.FileInputStream;
 import java.io.IOException;
-import java.io.InputStream;
-import java.nio.file.Path;
 import java.util.ArrayList;
+import java.util.Iterator;
 import java.util.List;
 
 public class ReadXLSX {
@@ -23,10 +21,10 @@ public class ReadXLSX {
             List<Student> list = new ArrayList<>();
             XSSFWorkbook xssfWorkbook = new XSSFWorkbook(ReadXLSX.class.getClassLoader().getResourceAsStream("universityInfo.xlsx"));
             XSSFSheet s = xssfWorkbook.getSheet("Студенты");
-            var iterator = s.iterator();
+            Iterator<Row> iterator = s.iterator();
             iterator.next();
             while (iterator.hasNext()) {
-                var row = iterator.next();
+                Row row = iterator.next();
                 Student student = Student.builder()
                         .universityId(row.getCell(0).getStringCellValue())
                         .fullName(row.getCell(1).getStringCellValue())
