@@ -6,3 +6,501 @@
 <log4j:message><![CDATA[Statistics created]]></log4j:message>
 </log4j:event>
 
+<log4j:event logger="io.github.isaevisa05.projecte.utils.StatisticsUtil" timestamp="1760768875941" level="INFO" thread="main">
+<log4j:message><![CDATA[Create new Statistics]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="io.github.isaevisa05.projecte.utils.StatisticsUtil" timestamp="1760768875945" level="INFO" thread="main">
+<log4j:message><![CDATA[Statistics created]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="io.github.isaevisa05.projecte.utils.StatisticsUtil" timestamp="1760768908949" level="INFO" thread="main">
+<log4j:message><![CDATA[Create new Statistics]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="io.github.isaevisa05.projecte.utils.StatisticsUtil" timestamp="1760768908954" level="INFO" thread="main">
+<log4j:message><![CDATA[Statistics created]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="io.github.isaevisa05.projecte.io.WriterXML" timestamp="1760768908961" level="WARN" thread="main">
+<log4j:message><![CDATA[Implementation of JAXB-API has not been found on module path or classpath.]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="io.github.isaevisa05.projecte.utils.StatisticsUtil" timestamp="1760769353818" level="INFO" thread="main">
+<log4j:message><![CDATA[Create new Statistics]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="io.github.isaevisa05.projecte.utils.StatisticsUtil" timestamp="1760769353821" level="INFO" thread="main">
+<log4j:message><![CDATA[Statistics created]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="io.github.isaevisa05.projecte.io.WriterXML" timestamp="1760769353829" level="WARN" thread="main">
+<log4j:message><![CDATA[Implementation of JAXB-API has not been found on module path or classpath.]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="io.github.isaevisa05.projecte.utils.StatisticsUtil" timestamp="1760769414375" level="INFO" thread="main">
+<log4j:message><![CDATA[Create new Statistics]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="io.github.isaevisa05.projecte.utils.StatisticsUtil" timestamp="1760769414379" level="INFO" thread="main">
+<log4j:message><![CDATA[Statistics created]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="io.github.isaevisa05.projecte.io.WriterXML" timestamp="1760769414386" level="WARN" thread="main">
+<log4j:message><![CDATA[Implementation of JAXB-API has not been found on module path or classpath.]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="io.github.isaevisa05.projecte.utils.StatisticsUtil" timestamp="1760769438088" level="INFO" thread="main">
+<log4j:message><![CDATA[Create new Statistics]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="io.github.isaevisa05.projecte.utils.StatisticsUtil" timestamp="1760769438092" level="INFO" thread="main">
+<log4j:message><![CDATA[Statistics created]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="io.github.isaevisa05.projecte.io.WriterXML" timestamp="1760769438099" level="WARN" thread="main">
+<log4j:message><![CDATA[javax.xml.bind.JAXBException: Implementation of JAXB-API has not been found on module path or classpath.
+ - with linked exception:
+[java.lang.ClassNotFoundException: com.sun.xml.internal.bind.v2.ContextFactory]]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="io.github.isaevisa05.projecte.utils.StatisticsUtil" timestamp="1760769538085" level="INFO" thread="main">
+<log4j:message><![CDATA[Create new Statistics]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="io.github.isaevisa05.projecte.utils.StatisticsUtil" timestamp="1760769538089" level="INFO" thread="main">
+<log4j:message><![CDATA[Statistics created]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="io.github.isaevisa05.projecte.io.WriterXML" timestamp="1760769538097" level="WARN" thread="main">
+<log4j:message><![CDATA[javax.xml.bind.JAXBException: Implementation of JAXB-API has not been found on module path or classpath.
+ - with linked exception:
+[java.lang.ClassNotFoundException: com.sun.xml.internal.bind.v2.ContextFactory]]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="io.github.isaevisa05.projecte.utils.StatisticsUtil" timestamp="1760769565350" level="INFO" thread="main">
+<log4j:message><![CDATA[Create new Statistics]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="io.github.isaevisa05.projecte.utils.StatisticsUtil" timestamp="1760769565352" level="INFO" thread="main">
+<log4j:message><![CDATA[Statistics created]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="io.github.isaevisa05.projecte.io.WriterXML" timestamp="1760769565359" level="WARN" thread="main">
+<log4j:message><![CDATA[javax.xml.bind.JAXBException: Implementation of JAXB-API has not been found on module path or classpath.
+ - with linked exception:
+[java.lang.ClassNotFoundException: com.sun.xml.internal.bind.v2.ContextFactory]]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="io.github.isaevisa05.projecte.utils.StatisticsUtil" timestamp="1760769587492" level="INFO" thread="main">
+<log4j:message><![CDATA[Create new Statistics]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="io.github.isaevisa05.projecte.utils.StatisticsUtil" timestamp="1760769587495" level="INFO" thread="main">
+<log4j:message><![CDATA[Statistics created]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="io.github.isaevisa05.projecte.io.WriterXML" timestamp="1760769587501" level="WARN" thread="main">
+<log4j:message><![CDATA[javax.xml.bind.JAXBException: Implementation of JAXB-API has not been found on module path or classpath.
+ - with linked exception:
+[java.lang.ClassNotFoundException: com.sun.xml.internal.bind.v2.ContextFactory]]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="io.github.isaevisa05.projecte.utils.StatisticsUtil" timestamp="1760769660494" level="INFO" thread="main">
+<log4j:message><![CDATA[Create new Statistics]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="io.github.isaevisa05.projecte.utils.StatisticsUtil" timestamp="1760769660498" level="INFO" thread="main">
+<log4j:message><![CDATA[Statistics created]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="io.github.isaevisa05.projecte.utils.StatisticsUtil" timestamp="1760769678407" level="INFO" thread="main">
+<log4j:message><![CDATA[Create new Statistics]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="io.github.isaevisa05.projecte.utils.StatisticsUtil" timestamp="1760769678411" level="INFO" thread="main">
+<log4j:message><![CDATA[Statistics created]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="io.github.isaevisa05.projecte.utils.StatisticsUtil" timestamp="1760769700646" level="INFO" thread="main">
+<log4j:message><![CDATA[Create new Statistics]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="io.github.isaevisa05.projecte.utils.StatisticsUtil" timestamp="1760769700649" level="INFO" thread="main">
+<log4j:message><![CDATA[Statistics created]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="io.github.isaevisa05.projecte.io.WriterXML" timestamp="1760769700657" level="INFO" thread="main">
+<log4j:message><![CDATA[javax.xml.bind.JAXBException: Implementation of JAXB-API has not been found on module path or classpath.
+ - with linked exception:
+[java.lang.ClassNotFoundException: com.sun.xml.internal.bind.v2.ContextFactory]]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="io.github.isaevisa05.projecte.utils.StatisticsUtil" timestamp="1760769859597" level="INFO" thread="main">
+<log4j:message><![CDATA[Create new Statistics]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="io.github.isaevisa05.projecte.utils.StatisticsUtil" timestamp="1760769859600" level="INFO" thread="main">
+<log4j:message><![CDATA[Statistics created]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="io.github.isaevisa05.projecte.io.WriterXML" timestamp="1760769859607" level="INFO" thread="main">
+<log4j:message><![CDATA[javax.xml.bind.JAXBException: Implementation of JAXB-API has not been found on module path or classpath.
+ - with linked exception:
+[java.lang.ClassNotFoundException: com.sun.xml.internal.bind.v2.ContextFactory]]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="io.github.isaevisa05.projecte.utils.StatisticsUtil" timestamp="1760769988242" level="INFO" thread="main">
+<log4j:message><![CDATA[Create new Statistics]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="io.github.isaevisa05.projecte.utils.StatisticsUtil" timestamp="1760769988245" level="INFO" thread="main">
+<log4j:message><![CDATA[Statistics created]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="io.github.isaevisa05.projecte.io.WriterXML" timestamp="1760769988286" level="INFO" thread="main">
+<log4j:message><![CDATA[com.sun.xml.internal.bind.v2.runtime.IllegalAnnotationsException: 18 counts of IllegalAnnotationExceptions
+io.github.isaevisa05.projecte.entity.FullInfo does not have a no-arg default constructor.
+	this problem is related to the following location:
+		at io.github.isaevisa05.projecte.entity.FullInfo
+Class has two properties of the same name "statistics"
+	this problem is related to the following location:
+		at public java.util.List io.github.isaevisa05.projecte.entity.FullInfo.getStatistics()
+		at io.github.isaevisa05.projecte.entity.FullInfo
+	this problem is related to the following location:
+		at java.util.List io.github.isaevisa05.projecte.entity.FullInfo.statistics
+		at io.github.isaevisa05.projecte.entity.FullInfo
+Class has two properties of the same name "students"
+	this problem is related to the following location:
+		at public java.util.List io.github.isaevisa05.projecte.entity.FullInfo.getStudents()
+		at io.github.isaevisa05.projecte.entity.FullInfo
+	this problem is related to the following location:
+		at java.util.List io.github.isaevisa05.projecte.entity.FullInfo.students
+		at io.github.isaevisa05.projecte.entity.FullInfo
+Class has two properties of the same name "universities"
+	this problem is related to the following location:
+		at public java.util.List io.github.isaevisa05.projecte.entity.FullInfo.getUniversities()
+		at io.github.isaevisa05.projecte.entity.FullInfo
+	this problem is related to the following location:
+		at java.util.List io.github.isaevisa05.projecte.entity.FullInfo.universities
+		at io.github.isaevisa05.projecte.entity.FullInfo
+Class has two properties of the same name "avgExamScore"
+	this problem is related to the following location:
+		at public float io.github.isaevisa05.projecte.entity.Student.getAvgExamScore()
+		at io.github.isaevisa05.projecte.entity.Student
+		at java.util.List io.github.isaevisa05.projecte.entity.FullInfo.students
+		at io.github.isaevisa05.projecte.entity.FullInfo
+	this problem is related to the following location:
+		at float io.github.isaevisa05.projecte.entity.Student.avgExamScore
+		at io.github.isaevisa05.projecte.entity.Student
+		at java.util.List io.github.isaevisa05.projecte.entity.FullInfo.students
+		at io.github.isaevisa05.projecte.entity.FullInfo
+Class has two properties of the same name "currentCourseNumber"
+	this problem is related to the following location:
+		at public int io.github.isaevisa05.projecte.entity.Student.getCurrentCourseNumber()
+		at io.github.isaevisa05.projecte.entity.Student
+		at java.util.List io.github.isaevisa05.projecte.entity.FullInfo.students
+		at io.github.isaevisa05.projecte.entity.FullInfo
+	this problem is related to the following location:
+		at int io.github.isaevisa05.projecte.entity.Student.currentCourseNumber
+		at io.github.isaevisa05.projecte.entity.Student
+		at java.util.List io.github.isaevisa05.projecte.entity.FullInfo.students
+		at io.github.isaevisa05.projecte.entity.FullInfo
+Class has two properties of the same name "fullName"
+	this problem is related to the following location:
+		at public java.lang.String io.github.isaevisa05.projecte.entity.Student.getFullName()
+		at io.github.isaevisa05.projecte.entity.Student
+		at java.util.List io.github.isaevisa05.projecte.entity.FullInfo.students
+		at io.github.isaevisa05.projecte.entity.FullInfo
+	this problem is related to the following location:
+		at java.lang.String io.github.isaevisa05.projecte.entity.Student.fullName
+		at io.github.isaevisa05.projecte.entity.Student
+		at java.util.List io.github.isaevisa05.projecte.entity.FullInfo.students
+		at io.github.isaevisa05.projecte.entity.FullInfo
+Class has two properties of the same name "universityId"
+	this problem is related to the following location:
+		at public java.lang.String io.github.isaevisa05.projecte.entity.Student.getUniversityId()
+		at io.github.isaevisa05.projecte.entity.Student
+		at java.util.List io.github.isaevisa05.projecte.entity.FullInfo.students
+		at io.github.isaevisa05.projecte.entity.FullInfo
+	this problem is related to the following location:
+		at java.lang.String io.github.isaevisa05.projecte.entity.Student.universityId
+		at io.github.isaevisa05.projecte.entity.Student
+		at java.util.List io.github.isaevisa05.projecte.entity.FullInfo.students
+		at io.github.isaevisa05.projecte.entity.FullInfo
+Class has two properties of the same name "fullName"
+	this problem is related to the following location:
+		at public java.lang.String io.github.isaevisa05.projecte.entity.University.getFullName()
+		at io.github.isaevisa05.projecte.entity.University
+		at java.util.List io.github.isaevisa05.projecte.entity.FullInfo.universities
+		at io.github.isaevisa05.projecte.entity.FullInfo
+	this problem is related to the following location:
+		at java.lang.String io.github.isaevisa05.projecte.entity.University.fullName
+		at io.github.isaevisa05.projecte.entity.University
+		at java.util.List io.github.isaevisa05.projecte.entity.FullInfo.universities
+		at io.github.isaevisa05.projecte.entity.FullInfo
+Class has two properties of the same name "id"
+	this problem is related to the following location:
+		at public java.lang.String io.github.isaevisa05.projecte.entity.University.getId()
+		at io.github.isaevisa05.projecte.entity.University
+		at java.util.List io.github.isaevisa05.projecte.entity.FullInfo.universities
+		at io.github.isaevisa05.projecte.entity.FullInfo
+	this problem is related to the following location:
+		at java.lang.String io.github.isaevisa05.projecte.entity.University.id
+		at io.github.isaevisa05.projecte.entity.University
+		at java.util.List io.github.isaevisa05.projecte.entity.FullInfo.universities
+		at io.github.isaevisa05.projecte.entity.FullInfo
+Class has two properties of the same name "shortName"
+	this problem is related to the following location:
+		at public java.lang.String io.github.isaevisa05.projecte.entity.University.getShortName()
+		at io.github.isaevisa05.projecte.entity.University
+		at java.util.List io.github.isaevisa05.projecte.entity.FullInfo.universities
+		at io.github.isaevisa05.projecte.entity.FullInfo
+	this problem is related to the following location:
+		at java.lang.String io.github.isaevisa05.projecte.entity.University.shortName
+		at io.github.isaevisa05.projecte.entity.University
+		at java.util.List io.github.isaevisa05.projecte.entity.FullInfo.universities
+		at io.github.isaevisa05.projecte.entity.FullInfo
+Class has two properties of the same name "studyProfile"
+	this problem is related to the following location:
+		at public io.github.isaevisa05.projecte.StudyProfile io.github.isaevisa05.projecte.entity.University.getStudyProfile()
+		at io.github.isaevisa05.projecte.entity.University
+		at java.util.List io.github.isaevisa05.projecte.entity.FullInfo.universities
+		at io.github.isaevisa05.projecte.entity.FullInfo
+	this problem is related to the following location:
+		at io.github.isaevisa05.projecte.StudyProfile io.github.isaevisa05.projecte.entity.University.studyProfile
+		at io.github.isaevisa05.projecte.entity.University
+		at java.util.List io.github.isaevisa05.projecte.entity.FullInfo.universities
+		at io.github.isaevisa05.projecte.entity.FullInfo
+Class has two properties of the same name "yearOfFoundation"
+	this problem is related to the following location:
+		at public int io.github.isaevisa05.projecte.entity.University.getYearOfFoundation()
+		at io.github.isaevisa05.projecte.entity.University
+		at java.util.List io.github.isaevisa05.projecte.entity.FullInfo.universities
+		at io.github.isaevisa05.projecte.entity.FullInfo
+	this problem is related to the following location:
+		at int io.github.isaevisa05.projecte.entity.University.yearOfFoundation
+		at io.github.isaevisa05.projecte.entity.University
+		at java.util.List io.github.isaevisa05.projecte.entity.FullInfo.universities
+		at io.github.isaevisa05.projecte.entity.FullInfo
+Class has two properties of the same name "avgExamScore"
+	this problem is related to the following location:
+		at public float io.github.isaevisa05.projecte.entity.Statistics.getAvgExamScore()
+		at io.github.isaevisa05.projecte.entity.Statistics
+		at java.util.List io.github.isaevisa05.projecte.entity.FullInfo.statistics
+		at io.github.isaevisa05.projecte.entity.FullInfo
+	this problem is related to the following location:
+		at float io.github.isaevisa05.projecte.entity.Statistics.avgExamScore
+		at io.github.isaevisa05.projecte.entity.Statistics
+		at java.util.List io.github.isaevisa05.projecte.entity.FullInfo.statistics
+		at io.github.isaevisa05.projecte.entity.FullInfo
+Class has two properties of the same name "quantityOfStudents"
+	this problem is related to the following location:
+		at public int io.github.isaevisa05.projecte.entity.Statistics.getQuantityOfStudents()
+		at io.github.isaevisa05.projecte.entity.Statistics
+		at java.util.List io.github.isaevisa05.projecte.entity.FullInfo.statistics
+		at io.github.isaevisa05.projecte.entity.FullInfo
+	this problem is related to the following location:
+		at int io.github.isaevisa05.projecte.entity.Statistics.quantityOfStudents
+		at io.github.isaevisa05.projecte.entity.Statistics
+		at java.util.List io.github.isaevisa05.projecte.entity.FullInfo.statistics
+		at io.github.isaevisa05.projecte.entity.FullInfo
+Class has two properties of the same name "quantityOfUniversitiesForStudyProfile"
+	this problem is related to the following location:
+		at public int io.github.isaevisa05.projecte.entity.Statistics.getQuantityOfUniversitiesForStudyProfile()
+		at io.github.isaevisa05.projecte.entity.Statistics
+		at java.util.List io.github.isaevisa05.projecte.entity.FullInfo.statistics
+		at io.github.isaevisa05.projecte.entity.FullInfo
+	this problem is related to the following location:
+		at int io.github.isaevisa05.projecte.entity.Statistics.quantityOfUniversitiesForStudyProfile
+		at io.github.isaevisa05.projecte.entity.Statistics
+		at java.util.List io.github.isaevisa05.projecte.entity.FullInfo.statistics
+		at io.github.isaevisa05.projecte.entity.FullInfo
+Class has two properties of the same name "studyProfile"
+	this problem is related to the following location:
+		at public io.github.isaevisa05.projecte.StudyProfile io.github.isaevisa05.projecte.entity.Statistics.getStudyProfile()
+		at io.github.isaevisa05.projecte.entity.Statistics
+		at java.util.List io.github.isaevisa05.projecte.entity.FullInfo.statistics
+		at io.github.isaevisa05.projecte.entity.FullInfo
+	this problem is related to the following location:
+		at io.github.isaevisa05.projecte.StudyProfile io.github.isaevisa05.projecte.entity.Statistics.studyProfile
+		at io.github.isaevisa05.projecte.entity.Statistics
+		at java.util.List io.github.isaevisa05.projecte.entity.FullInfo.statistics
+		at io.github.isaevisa05.projecte.entity.FullInfo
+Class has two properties of the same name "universitiesForStudyProfile"
+	this problem is related to the following location:
+		at public java.util.List io.github.isaevisa05.projecte.entity.Statistics.getUniversitiesForStudyProfile()
+		at io.github.isaevisa05.projecte.entity.Statistics
+		at java.util.List io.github.isaevisa05.projecte.entity.FullInfo.statistics
+		at io.github.isaevisa05.projecte.entity.FullInfo
+	this problem is related to the following location:
+		at java.util.List io.github.isaevisa05.projecte.entity.Statistics.universitiesForStudyProfile
+		at io.github.isaevisa05.projecte.entity.Statistics
+		at java.util.List io.github.isaevisa05.projecte.entity.FullInfo.statistics
+		at io.github.isaevisa05.projecte.entity.FullInfo
+]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="io.github.isaevisa05.projecte.utils.StatisticsUtil" timestamp="1760770067248" level="INFO" thread="main">
+<log4j:message><![CDATA[Create new Statistics]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="io.github.isaevisa05.projecte.utils.StatisticsUtil" timestamp="1760770067258" level="INFO" thread="main">
+<log4j:message><![CDATA[Statistics created]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="io.github.isaevisa05.projecte.io.WriterXML" timestamp="1760770067290" level="INFO" thread="main">
+<log4j:message><![CDATA[com.sun.xml.internal.bind.v2.runtime.IllegalAnnotationsException: 4 counts of IllegalAnnotationExceptions
+io.github.isaevisa05.projecte.entity.FullInfo does not have a no-arg default constructor.
+	this problem is related to the following location:
+		at io.github.isaevisa05.projecte.entity.FullInfo
+Class has two properties of the same name "statistics"
+	this problem is related to the following location:
+		at public java.util.List io.github.isaevisa05.projecte.entity.FullInfo.getStatistics()
+		at io.github.isaevisa05.projecte.entity.FullInfo
+	this problem is related to the following location:
+		at java.util.List io.github.isaevisa05.projecte.entity.FullInfo.statistics
+		at io.github.isaevisa05.projecte.entity.FullInfo
+Class has two properties of the same name "students"
+	this problem is related to the following location:
+		at public java.util.List io.github.isaevisa05.projecte.entity.FullInfo.getStudents()
+		at io.github.isaevisa05.projecte.entity.FullInfo
+	this problem is related to the following location:
+		at java.util.List io.github.isaevisa05.projecte.entity.FullInfo.students
+		at io.github.isaevisa05.projecte.entity.FullInfo
+Class has two properties of the same name "universities"
+	this problem is related to the following location:
+		at public java.util.List io.github.isaevisa05.projecte.entity.FullInfo.getUniversities()
+		at io.github.isaevisa05.projecte.entity.FullInfo
+	this problem is related to the following location:
+		at java.util.List io.github.isaevisa05.projecte.entity.FullInfo.universities
+		at io.github.isaevisa05.projecte.entity.FullInfo
+]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="io.github.isaevisa05.projecte.utils.StatisticsUtil" timestamp="1760770085417" level="INFO" thread="main">
+<log4j:message><![CDATA[Create new Statistics]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="io.github.isaevisa05.projecte.utils.StatisticsUtil" timestamp="1760770085420" level="INFO" thread="main">
+<log4j:message><![CDATA[Statistics created]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="io.github.isaevisa05.projecte.io.WriterXML" timestamp="1760770085452" level="INFO" thread="main">
+<log4j:message><![CDATA[com.sun.xml.internal.bind.v2.runtime.IllegalAnnotationsException: 1 counts of IllegalAnnotationExceptions
+io.github.isaevisa05.projecte.entity.FullInfo does not have a no-arg default constructor.
+	this problem is related to the following location:
+		at io.github.isaevisa05.projecte.entity.FullInfo
+]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="io.github.isaevisa05.projecte.utils.StatisticsUtil" timestamp="1760770153477" level="INFO" thread="main">
+<log4j:message><![CDATA[Create new Statistics]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="io.github.isaevisa05.projecte.utils.StatisticsUtil" timestamp="1760770153480" level="INFO" thread="main">
+<log4j:message><![CDATA[Statistics created]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="io.github.isaevisa05.projecte.io.WriterXML" timestamp="1760770153524" level="INFO" thread="main">
+<log4j:message><![CDATA[javax.xml.bind.JAXBException
+ - with linked exception:
+[java.io.FileNotFoundException: output\xml.xml (Системе не удается найти указанный путь)]]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="io.github.isaevisa05.projecte.utils.StatisticsUtil" timestamp="1760770186167" level="INFO" thread="main">
+<log4j:message><![CDATA[Create new Statistics]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="io.github.isaevisa05.projecte.utils.StatisticsUtil" timestamp="1760770186169" level="INFO" thread="main">
+<log4j:message><![CDATA[Statistics created]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="io.github.isaevisa05.projecte.utils.StatisticsUtil" timestamp="1760770367958" level="INFO" thread="main">
+<log4j:message><![CDATA[Create new Statistics]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="io.github.isaevisa05.projecte.utils.StatisticsUtil" timestamp="1760770367961" level="INFO" thread="main">
+<log4j:message><![CDATA[Statistics created]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="io.github.isaevisa05.projecte.utils.StatisticsUtil" timestamp="1760770921540" level="INFO" thread="main">
+<log4j:message><![CDATA[Create new Statistics]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="io.github.isaevisa05.projecte.utils.StatisticsUtil" timestamp="1760770921543" level="INFO" thread="main">
+<log4j:message><![CDATA[Statistics created]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="io.github.isaevisa05.projecte.utils.StatisticsUtil" timestamp="1760770934791" level="INFO" thread="main">
+<log4j:message><![CDATA[Create new Statistics]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="io.github.isaevisa05.projecte.utils.StatisticsUtil" timestamp="1760770934792" level="INFO" thread="main">
+<log4j:message><![CDATA[Statistics created]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="io.github.isaevisa05.projecte.utils.StatisticsUtil" timestamp="1760771080234" level="INFO" thread="main">
+<log4j:message><![CDATA[Create new Statistics]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="io.github.isaevisa05.projecte.utils.StatisticsUtil" timestamp="1760771080237" level="INFO" thread="main">
+<log4j:message><![CDATA[Statistics created]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="io.github.isaevisa05.projecte.io.WriterXML" timestamp="1760771080246" level="INFO" thread="main">
+<log4j:message><![CDATA[generateXMLFile start]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="io.github.isaevisa05.projecte.io.WriterXML" timestamp="1760771080282" level="INFO" thread="main">
+<log4j:message><![CDATA[generateXMLFile end]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="io.github.isaevisa05.projecte.io.WriterJSON" timestamp="1760771080292" level="INFO" thread="main">
+<log4j:message><![CDATA[generateJSONFile start]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="io.github.isaevisa05.projecte.io.WriterJSON" timestamp="1760771080312" level="INFO" thread="main">
+<log4j:message><![CDATA[generateJSONFile end]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="io.github.isaevisa05.projecte.io.ReadXLSX" timestamp="1760771167835" level="INFO" thread="main">
+<log4j:message><![CDATA[readUniversities start]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="io.github.isaevisa05.projecte.io.ReadXLSX" timestamp="1760771168173" level="INFO" thread="main">
+<log4j:message><![CDATA[readUniversities end]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="io.github.isaevisa05.projecte.io.ReadXLSX" timestamp="1760771168173" level="INFO" thread="main">
+<log4j:message><![CDATA[readStudents start]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="io.github.isaevisa05.projecte.io.ReadXLSX" timestamp="1760771168189" level="INFO" thread="main">
+<log4j:message><![CDATA[readStudents end]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="io.github.isaevisa05.projecte.utils.StatisticsUtil" timestamp="1760771168190" level="INFO" thread="main">
+<log4j:message><![CDATA[Create new Statistics]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="io.github.isaevisa05.projecte.utils.StatisticsUtil" timestamp="1760771168191" level="INFO" thread="main">
+<log4j:message><![CDATA[Statistics created]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="io.github.isaevisa05.projecte.io.WriterXML" timestamp="1760771168192" level="INFO" thread="main">
+<log4j:message><![CDATA[generateXMLFile start]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="io.github.isaevisa05.projecte.io.WriterXML" timestamp="1760771168228" level="INFO" thread="main">
+<log4j:message><![CDATA[generateXMLFile end]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="io.github.isaevisa05.projecte.io.WriterJSON" timestamp="1760771168236" level="INFO" thread="main">
+<log4j:message><![CDATA[generateJSONFile start]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="io.github.isaevisa05.projecte.io.WriterJSON" timestamp="1760771168257" level="INFO" thread="main">
+<log4j:message><![CDATA[generateJSONFile end]]></log4j:message>
+</log4j:event>
+

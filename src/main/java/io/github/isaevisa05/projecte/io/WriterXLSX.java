@@ -1,4 +1,4 @@
-package io.github.isaevisa05.projecte.xlsx;
+package io.github.isaevisa05.projecte.io;
 
 import io.github.isaevisa05.projecte.entity.Statistics;
 import org.apache.poi.ss.usermodel.Cell;
@@ -22,6 +22,7 @@ public class WriterXLSX {
 
     public static void writeStatistics(List<Statistics> statisticsList, String filePath) {
         try (XSSFWorkbook xssfWorkbook = new XSSFWorkbook()) {
+            logger.info("writeStatistics start");
             XSSFSheet sheet = xssfWorkbook.createSheet("Статистика");
 
             XSSFFont font = xssfWorkbook.createFont();
@@ -71,6 +72,7 @@ public class WriterXLSX {
 
             try (FileOutputStream fileOutputStream = new FileOutputStream(filePath)) {
                 xssfWorkbook.write(fileOutputStream);
+                logger.info("writeStatistics end");
             } catch (IOException e) {
                 logger.warn(e.getMessage());
             }

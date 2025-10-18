@@ -1,10 +1,11 @@
-package io.github.isaevisa05.projecte.xlsx;
+package io.github.isaevisa05.projecte.io;
 
 import io.github.isaevisa05.projecte.StudyProfile;
 import io.github.isaevisa05.projecte.entity.Student;
 import io.github.isaevisa05.projecte.entity.University;
 import lombok.AccessLevel;
 import lombok.NoArgsConstructor;
+import lombok.var;
 import org.apache.poi.ss.usermodel.Row;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
@@ -23,6 +24,7 @@ public class ReadXLSX {
 
     public static List<Student> readStudents() {
         try {
+            logger.info("readStudents start");
             List<Student> list = new ArrayList<>();
             XSSFWorkbook xssfWorkbook = new XSSFWorkbook(ReadXLSX.class.getClassLoader().getResourceAsStream("universityInfo.xlsx"));
             XSSFSheet s = xssfWorkbook.getSheet("Студенты");
@@ -38,6 +40,7 @@ public class ReadXLSX {
                         .build();
                 list.add(student);
             }
+            logger.info("readStudents end");
             return list;
         } catch (IOException e) {
             logger.warn(e.getMessage());
@@ -47,6 +50,7 @@ public class ReadXLSX {
 
     public static List<University> readUniversities() {
         try {
+            logger.info("readUniversities start");
             List<University> list = new ArrayList<>();
             XSSFWorkbook xssfWorkbook = new XSSFWorkbook(ReadXLSX.class.getClassLoader().getResourceAsStream("universityInfo.xlsx"));
             XSSFSheet s = xssfWorkbook.getSheet("Университеты");
@@ -63,6 +67,7 @@ public class ReadXLSX {
                         .build();
                 list.add(university);
             }
+            logger.info("readUniversities end");
             return list;
         } catch (IOException e) {
             logger.warn(e.getMessage());

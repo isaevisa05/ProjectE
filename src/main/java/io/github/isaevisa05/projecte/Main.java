@@ -1,19 +1,23 @@
 package io.github.isaevisa05.projecte;
 
+import io.github.isaevisa05.projecte.entity.FullInfo;
+import io.github.isaevisa05.projecte.io.WriterJSON;
 import io.github.isaevisa05.projecte.utils.StatisticsUtil;
-import io.github.isaevisa05.projecte.xlsx.ReadXLSX;
-import io.github.isaevisa05.projecte.xlsx.WriterXLSX;
+import io.github.isaevisa05.projecte.io.ReadXLSX;
+import io.github.isaevisa05.projecte.io.WriterXML;
+import lombok.var;
 
 public class Main {
 
     public static void main(String[] args) {
         var universities = ReadXLSX.readUniversities();
         var students = ReadXLSX.readStudents();
-        WriterXLSX.writeStatistics(
-                StatisticsUtil.createStatistics(
-                        universities, students)
-                , "file.xlsx");
+        var statistics = StatisticsUtil.createStatistics(universities, students);
 
+        FullInfo xmlInfo = new FullInfo(students, universities, statistics);
+
+        WriterXML.generateXMLFile(xmlInfo);
+        WriterJSON.generateJSONFile(xmlInfo);
     }
         /*universities.stream()
                 .sorted(ComparatorManager.getUniversityComparator(UniversityComparatorType.ID))

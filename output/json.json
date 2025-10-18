@@ -1,0 +1,163 @@
+{
+  "students": [
+    {
+      "fullName": "Иванов И. А.",
+      "universityId": "0002-high",
+      "currentCourseNumber": 2,
+      "avgExamScore": 4.0
+    },
+    {
+      "fullName": "Козлов М. В.",
+      "universityId": "0002-high",
+      "currentCourseNumber": 2,
+      "avgExamScore": 4.6
+    },
+    {
+      "fullName": "Фёдоров А. И.",
+      "universityId": "0002-high",
+      "currentCourseNumber": 3,
+      "avgExamScore": 4.2
+    },
+    {
+      "fullName": "Игнатьев М. М.",
+      "universityId": "0003-high",
+      "currentCourseNumber": 4,
+      "avgExamScore": 4.3
+    },
+    {
+      "fullName": "Соколов В. В.",
+      "universityId": "0004-high",
+      "currentCourseNumber": 1,
+      "avgExamScore": 4.8
+    },
+    {
+      "fullName": "Сидоров Е. Г.",
+      "universityId": "0004-high",
+      "currentCourseNumber": 2,
+      "avgExamScore": 3.9
+    },
+    {
+      "fullName": "Витальев В. А.",
+      "universityId": "0001-high",
+      "currentCourseNumber": 2,
+      "avgExamScore": 4.0
+    },
+    {
+      "fullName": "Петров П. А.",
+      "universityId": "0001-high",
+      "currentCourseNumber": 1,
+      "avgExamScore": 5.0
+    },
+    {
+      "fullName": "Алексеев С. В.",
+      "universityId": "0001-high",
+      "currentCourseNumber": 1,
+      "avgExamScore": 5.0
+    },
+    {
+      "fullName": "Иванов А. Г.",
+      "universityId": "0001-high",
+      "currentCourseNumber": 3,
+      "avgExamScore": 4.8
+    },
+    {
+      "fullName": "Васильев В. П.",
+      "universityId": "0001-high",
+      "currentCourseNumber": 4,
+      "avgExamScore": 4.7
+    }
+  ],
+  "universities": [
+    {
+      "id": "0001-high",
+      "fullName": "Московский Выдуманный Университет",
+      "shortName": "МВУ",
+      "yearOfFoundation": 1990,
+      "studyProfile": "PHYSICS"
+    },
+    {
+      "id": "0002-high",
+      "fullName": "Московский Придуманный Институт",
+      "shortName": "МПИ",
+      "yearOfFoundation": 1987,
+      "studyProfile": "PHYSICS"
+    },
+    {
+      "id": "0003-high",
+      "fullName": "Московский Государственный Медицинский Университет",
+      "shortName": "МГМУ",
+      "yearOfFoundation": 1960,
+      "studyProfile": "MEDICINE"
+    },
+    {
+      "id": "0004-high",
+      "fullName": "Тамбовский Университет Медицины",
+      "shortName": "ТУМ",
+      "yearOfFoundation": 1995,
+      "studyProfile": "MEDICINE"
+    },
+    {
+      "id": "0005-high",
+      "fullName": "Самарский Медицинский Институт",
+      "shortName": "СМИ",
+      "yearOfFoundation": 1936,
+      "studyProfile": "MEDICINE"
+    },
+    {
+      "id": "0006-high",
+      "fullName": "Воронежский Литературно-Переводческий Университет",
+      "shortName": "ВЛПУ",
+      "yearOfFoundation": 2003,
+      "studyProfile": "LINGUISTICS"
+    },
+    {
+      "id": "0007-high",
+      "fullName": "Казанский Университет Вычислений",
+      "shortName": "КУВ",
+      "yearOfFoundation": 1989,
+      "studyProfile": "MATHEMATICS"
+    }
+  ],
+  "statistics": [
+    {
+      "studyProfile": "MEDICINE",
+      "avgExamScore": 4.3,
+      "quantityOfStudents": 3,
+      "quantityOfUniversities": 3,
+      "universitiesForStudyProfile": [
+        "0003-high",
+        "0004-high",
+        "0005-high"
+      ]
+    },
+    {
+      "studyProfile": "LINGUISTICS",
+      "avgExamScore": 0.0,
+      "quantityOfStudents": 0,
+      "quantityOfUniversities": 1,
+      "universitiesForStudyProfile": [
+        "0006-high"
+      ]
+    },
+    {
+      "studyProfile": "MATHEMATICS",
+      "avgExamScore": 0.0,
+      "quantityOfStudents": 0,
+      "quantityOfUniversities": 1,
+      "universitiesForStudyProfile": [
+        "0007-high"
+      ]
+    },
+    {
+      "studyProfile": "PHYSICS",
+      "avgExamScore": 4.5,
+      "quantityOfStudents": 8,
+      "quantityOfUniversities": 2,
+      "universitiesForStudyProfile": [
+        "0001-high",
+        "0002-high"
+      ]
+    }
+  ],
+  "processedAt": "Oct 18, 2025 10:06:08 AM"
+}

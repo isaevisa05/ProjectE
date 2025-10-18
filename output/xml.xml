@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root>
+    <studentsInfo>
+        <studentEntry>
+            <fullName>Иванов И. А.</fullName>
+            <universityId>0002-high</universityId>
+            <currentCourseNumber>2</currentCourseNumber>
+            <avgExamScore>4.0</avgExamScore>
+        </studentEntry>
+        <studentEntry>
+            <fullName>Козлов М. В.</fullName>
+            <universityId>0002-high</universityId>
+            <currentCourseNumber>2</currentCourseNumber>
+            <avgExamScore>4.6</avgExamScore>
+        </studentEntry>
+        <studentEntry>
+            <fullName>Фёдоров А. И.</fullName>
+            <universityId>0002-high</universityId>
+            <currentCourseNumber>3</currentCourseNumber>
+            <avgExamScore>4.2</avgExamScore>
+        </studentEntry>
+        <studentEntry>
+            <fullName>Игнатьев М. М.</fullName>
+            <universityId>0003-high</universityId>
+            <currentCourseNumber>4</currentCourseNumber>
+            <avgExamScore>4.3</avgExamScore>
+        </studentEntry>
+        <studentEntry>
+            <fullName>Соколов В. В.</fullName>
+            <universityId>0004-high</universityId>
+            <currentCourseNumber>1</currentCourseNumber>
+            <avgExamScore>4.8</avgExamScore>
+        </studentEntry>
+        <studentEntry>
+            <fullName>Сидоров Е. Г.</fullName>
+            <universityId>0004-high</universityId>
+            <currentCourseNumber>2</currentCourseNumber>
+            <avgExamScore>3.9</avgExamScore>
+        </studentEntry>
+        <studentEntry>
+            <fullName>Витальев В. А.</fullName>
+            <universityId>0001-high</universityId>
+            <currentCourseNumber>2</currentCourseNumber>
+            <avgExamScore>4.0</avgExamScore>
+        </studentEntry>
+        <studentEntry>
+            <fullName>Петров П. А.</fullName>
+            <universityId>0001-high</universityId>
+            <currentCourseNumber>1</currentCourseNumber>
+            <avgExamScore>5.0</avgExamScore>
+        </studentEntry>
+        <studentEntry>
+            <fullName>Алексеев С. В.</fullName>
+            <universityId>0001-high</universityId>
+            <currentCourseNumber>1</currentCourseNumber>
+            <avgExamScore>5.0</avgExamScore>
+        </studentEntry>
+        <studentEntry>
+            <fullName>Иванов А. Г.</fullName>
+            <universityId>0001-high</universityId>
+            <currentCourseNumber>3</currentCourseNumber>
+            <avgExamScore>4.8</avgExamScore>
+        </studentEntry>
+        <studentEntry>
+            <fullName>Васильев В. П.</fullName>
+            <universityId>0001-high</universityId>
+            <currentCourseNumber>4</currentCourseNumber>
+            <avgExamScore>4.7</avgExamScore>
+        </studentEntry>
+    </studentsInfo>
+    <universitiesInfo>
+        <universityEntry>
+            <id>0001-high</id>
+            <fullName>Московский Выдуманный Университет</fullName>
+            <shortName>МВУ</shortName>
+            <yearOfFoundation>1990</yearOfFoundation>
+            <studyProfile>PHYSICS</studyProfile>
+        </universityEntry>
+        <universityEntry>
+            <id>0002-high</id>
+            <fullName>Московский Придуманный Институт</fullName>
+            <shortName>МПИ</shortName>
+            <yearOfFoundation>1987</yearOfFoundation>
+            <studyProfile>PHYSICS</studyProfile>
+        </universityEntry>
+        <universityEntry>
+            <id>0003-high</id>
+            <fullName>Московский Государственный Медицинский Университет</fullName>
+            <shortName>МГМУ</shortName>
+            <yearOfFoundation>1960</yearOfFoundation>
+            <studyProfile>MEDICINE</studyProfile>
+        </universityEntry>
+        <universityEntry>
+            <id>0004-high</id>
+            <fullName>Тамбовский Университет Медицины</fullName>
+            <shortName>ТУМ</shortName>
+            <yearOfFoundation>1995</yearOfFoundation>
+            <studyProfile>MEDICINE</studyProfile>
+        </universityEntry>
+        <universityEntry>
+            <id>0005-high</id>
+            <fullName>Самарский Медицинский Институт</fullName>
+            <shortName>СМИ</shortName>
+            <yearOfFoundation>1936</yearOfFoundation>
+            <studyProfile>MEDICINE</studyProfile>
+        </universityEntry>
+        <universityEntry>
+            <id>0006-high</id>
+            <fullName>Воронежский Литературно-Переводческий Университет</fullName>
+            <shortName>ВЛПУ</shortName>
+            <yearOfFoundation>2003</yearOfFoundation>
+            <studyProfile>LINGUISTICS</studyProfile>
+        </universityEntry>
+        <universityEntry>
+            <id>0007-high</id>
+            <fullName>Казанский Университет Вычислений</fullName>
+            <shortName>КУВ</shortName>
+            <yearOfFoundation>1989</yearOfFoundation>
+            <studyProfile>MATHEMATICS</studyProfile>
+        </universityEntry>
+    </universitiesInfo>
+    <statisticalInfo>
+        <statisticsEntry>
+            <studyProfile>MEDICINE</studyProfile>
+            <avgExamScore>4.3</avgExamScore>
+            <quantityOfStudents>3</quantityOfStudents>
+            <quantityOfUniversities>3</quantityOfUniversities>
+            <universitiesForStudyProfile>0003-high</universitiesForStudyProfile>
+            <universitiesForStudyProfile>0004-high</universitiesForStudyProfile>
+            <universitiesForStudyProfile>0005-high</universitiesForStudyProfile>
+        </statisticsEntry>
+        <statisticsEntry>
+            <studyProfile>LINGUISTICS</studyProfile>
+            <avgExamScore>0.0</avgExamScore>
+            <quantityOfStudents>0</quantityOfStudents>
+            <quantityOfUniversities>1</quantityOfUniversities>
+            <universitiesForStudyProfile>0006-high</universitiesForStudyProfile>
+        </statisticsEntry>
+        <statisticsEntry>
+            <studyProfile>MATHEMATICS</studyProfile>
+            <avgExamScore>0.0</avgExamScore>
+            <quantityOfStudents>0</quantityOfStudents>
+            <quantityOfUniversities>1</quantityOfUniversities>
+            <universitiesForStudyProfile>0007-high</universitiesForStudyProfile>
+        </statisticsEntry>
+        <statisticsEntry>
+            <studyProfile>PHYSICS</studyProfile>
+            <avgExamScore>4.5</avgExamScore>
+            <quantityOfStudents>8</quantityOfStudents>
+            <quantityOfUniversities>2</quantityOfUniversities>
+            <universitiesForStudyProfile>0001-high</universitiesForStudyProfile>
+            <universitiesForStudyProfile>0002-high</universitiesForStudyProfile>
+        </statisticsEntry>
+    </statisticalInfo>
+    <processedAt>2025-10-18T10:06:08.191+03:00</processedAt>
+</root>
